@@ -11,13 +11,13 @@ die();
 */
 
 /** MySQL database username */
-define( 'DB_USER', 'db user' );
+define( 'DB_USER', 'ADMIN' );
 
 /** MySQL database password */
-define( 'DB_PASS', 'db pass' );
+define( 'DB_PASS', 'WORKER' );
 
 /** The name of the database */
-define( 'DB_NAME', 'db name' );
+define( 'DB_NAME', 'FILM' );
 
 /** MySQL hostname */
 define( 'DB_HOST', 'localhost' );
@@ -53,11 +53,11 @@ define( 'PPMail', 'test@gmail.com' );
 /*
  ** Mail settings.
  */  
-$adminMail = 'admin@domain.com';
-$mvm_useSMTP = false; /* Use smtp for mails? */
+$adminMail = 'admin@balapriyan.xyz';
+$mvm_useSMTP = True; /* Use smtp for mails? */
 /* true: Use smtp | false : uses's PHP's sendmail() function */
-$mvm_host = 'mail.domain.com';  /* Main SMTP server */
-$mvm_user = 'postman@domain.com'; /* SMTP username */
+$mvm_host = 'smtp.google.com';  /* Main SMTP server */
+$mvm_user = 'alantunemusic@gmail.com'; /* SMTP username */
 $mvm_pass = 'mail pass'; /* SMTP password */
 $mvm_secure = 'tls'; /* Enable TLS encryption, `ssl` also accepted */
 $mvm_port = '';  /* TCP port to connect to	*/
