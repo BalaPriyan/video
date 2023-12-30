@@ -58,7 +58,7 @@ $mvm_useSMTP = True; /* Use smtp for mails? */
 /* true: Use smtp | false : uses's PHP's sendmail() function */
 $mvm_host = 'smtp.google.com';  /* Main SMTP server */
 $mvm_user = 'alantunemusic@gmail.com'; /* SMTP username */
-$mvm_pass = 'mail pass'; /* SMTP password */
+$mvm_pass = 'hvxg gzbu bxvh abtd'; /* SMTP password */
 $mvm_secure = 'tls'; /* Enable TLS encryption, `ssl` also accepted */
 $mvm_port = '';  /* TCP port to connect to	*/
 /*
