@@ -34,7 +34,7 @@ define( 'DB_CACHE', '12' );
 */
 /** License key 
 Create it in the store, under "My Licenses" **/
-define( 'phpVibeKey', 'the key goes here' );
+define( 'phpVibeKey', 'the key goes her' );
 
 /** Site url (with end slash, ex: http://www.domain.com/ ) **/
 define( 'SITE_URL', 'https://www.domain.com/' );
