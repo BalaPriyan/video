@@ -11,4 +11,4 @@ COPY . /var/www/html
 EXPOSE 80
 
 # Start PHP's built-in server on port 80 when the container launches
-CMD ["php", "-S", "0.0.0.0:80"]
+CMD ["php", "index.php"]
